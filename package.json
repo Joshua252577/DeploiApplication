@@ -1,12 +1,13 @@
 {
+  "type": "module",
   "name": "deployapplication",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx src/server.ts",
+    "dev": "tsx src/server.mjs",
     "build": "tsup src",
-    "start": "node src/server.ts"
+    "start": "node src/server.mjs"
   },
   "keywords": [],
   "author": "",
